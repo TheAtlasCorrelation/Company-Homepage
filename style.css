@@ -192,19 +192,34 @@ header .contact-us {
 .feature .feature-content-1 {
     margin-bottom: -35vh;
 }
+
 .feature .feature-content-2 {
     margin-bottom: -35vh;
 }
+
 .feature .image-container {
     height: 65%;
     margin: 0 auto;
 }
 
-.feature img {
+.image-1 {
+    background: url("/Images/Semi detached.jpg");
     margin-top: 20vh;
-    height: 50vh;
-    width: 45vh;
-    margin-left: -10vh;
+    width: 50vh;
+    height: 40vh;
+    background-size: 375px;
+    margin-left: 25vh;
+    background-position: bottom;
+}
+
+.image-2 {
+
+    background: url("/Images/house 1.jpg");
+    margin-top: 20vh;
+    width: 50vh;
+    height: 40vh;
+    background-size: 500px;
+    margin-left: 25vh;
 }
 
 .feature .image-container img {
