@@ -37,9 +37,8 @@ html {
 
 header {
     position: fixed;
-    width: 100%;
-    background-color: hsl(26, 67%, 18%);
-    height: 5.3125rem;
+    background-color: hsl(26, 57%, 46%);
+    height: 13.9vh;
     z-index: 100;
     font-weight: 1;
     color: white;
@@ -47,6 +46,7 @@ header {
     margin-left: -3vh;
     width: 102vw;
     text-decoration: none;
+    font-size: 3vh;
 }
 
 header .content {
@@ -165,42 +165,53 @@ header .contact-us {
     text-decoration: none;
 }
 
-#Meet-the-team {
-    display: flex;
-    justify-content: space-between;
-    padding: 4rem 5%;
-    background-color: #f3f3f3;
+.main-content {
+    background-image: url("./Images/Homepage.jpg");
+    height: 90vh;
+    width: 100vw;
+    margin-left: -3vh;
+    background-size: 1600px;
+    color: hsl(240, 100%, 60%);
+    font-size: 13.5vh;
+    margin-top: -14vh;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
 }
+
+
 
 .feature {
     flex: 1;
     padding: 2rem;
-    margin: 0px 1.25rem;
     background-color: white;
+    width: 100vh;
+    margin-bottom: -45vh;
 }
 
+.feature .feature-content-1 {
+    margin-bottom: -35vh;
+}
+.feature .feature-content-2 {
+    margin-bottom: -35vh;
+}
 .feature .image-container {
-    width: 90%;
     height: 65%;
     margin: 0 auto;
 }
 
-.feature .image1 {
-    background-repeat: no-repeat;
-    width: 1vh;
-    height: 10px;
-    background-size: 0.00000000000000000000000001px;
-}
 .feature img {
     height: 50vh;
+    width: 65vh;
+    margin-left: -10vh;
 }
+
 .feature .image-container img {
     width: 100%;
     height: auto;
 }
 
 .feature .content {
-    max-width: 90%;
     margin: 2.5rem auto;
 }
 
@@ -209,6 +220,7 @@ header .contact-us {
     font-size: 2.25rem;
     font-weight: bold;
     color: #4a4a4a;
+    height: 40vh;
 }
 
 .feature h3 {
@@ -216,6 +228,7 @@ header .contact-us {
     line-height: 1.2;
     font-weight: 300;
     color: #4a4a4a;
+    height: 40vh;
 }
 
 
@@ -248,6 +261,13 @@ header .contact-us {
         margin: 0;
         padding: 1.25rem 1rem 0 1rem;
     }
+}
+
+#Meet-the-team {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 5%;
+    background-color: #f3f3f3;
 }
 
 footer {
