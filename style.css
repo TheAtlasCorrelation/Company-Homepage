@@ -201,8 +201,9 @@ header .contact-us {
 }
 
 .feature img {
+    margin-top: 20vh;
     height: 50vh;
-    width: 65vh;
+    width: 45vh;
     margin-left: -10vh;
 }
 
