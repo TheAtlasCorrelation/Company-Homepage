@@ -38,15 +38,15 @@ html {
 header {
     position: fixed;
     background-color: hsl(26, 57%, 46%);
-    height: 13.9vh;
+    height: 11vh;
     z-index: 100;
     font-weight: 1;
     color: white;
-    margin-top: -3vh;
     margin-left: -3vh;
     width: 102vw;
     text-decoration: none;
     font-size: 3vh;
+    margin-top: -7vh;
 }
 
 header .content {
@@ -54,13 +54,13 @@ header .content {
     align-items: center;
     padding: 1.875rem;
     text-decoration: none;
-    margin-top: -2.75vh;
+    margin-top: -2.5vh;
 }
 
 header .logo {
     flex: 1;
     font-family: 'Roboto';
-    font-size: 15.5px;
+    font-size: 15px;
     letter-spacing: 0.25px;
     color: hsl(0, 100%, 100%);
     text-decoration: none;
@@ -165,21 +165,20 @@ header .contact-us {
     text-decoration: none;
 }
 
-.main-content {
+#sign-up-section {
     background-image: url("./Images/Homepage.jpg");
-    height: 90vh;
+    height: 97.1vh;
     width: 100vw;
     margin-left: -3vh;
     background-size: 1600px;
-    color: hsl(240, 100%, 60%);
+    color: hsl(237, 100%, 88%);
     font-size: 13.5vh;
     margin-top: -14vh;
-    text-align: center;
-    align-items: center;
-    justify-content: end;
 }
 
-
+#sign-up-cta {
+    margin-bottom: -40vh;
+}
 
 .feature {
     flex: 1;
@@ -207,9 +206,9 @@ header .contact-us {
     margin-top: 20vh;
     width: 50vh;
     height: 40vh;
-    background-size: 375px;
+    background-size: 400px;
     margin-left: 25vh;
-    background-position: bottom;
+    background-position: center;
 }
 
 .image-2 {
@@ -220,16 +219,9 @@ header .contact-us {
     height: 40vh;
     background-size: 500px;
     margin-left: 25vh;
+    background-position: center;
 }
 
-.feature .image-container img {
-    width: 100%;
-    height: auto;
-}
-
-.feature .content {
-    margin: 2.5rem auto;
-}
 
 .feature h2 {
     padding-bottom: .5rem;
@@ -289,10 +281,10 @@ header .contact-us {
 footer {
     background-color: #9b9b9b;
     padding: 1.5rem 2rem;
-    height: 30vh;
+    height: 15vh;
     width: 96.75vw;
     margin-left: -5vh;
-    margin-bottom: -5vh;
+    padding-bottom: -50vh;
 }
 
 
@@ -303,35 +295,6 @@ footer .content {
     font-size: .75rem;
 }
 
-footer .copyright {
-    margin-top: 30vh;
-    margin-left: -110vh;
-    margin-right: 70vh;
-
-}
-
-footer .location {
-    margin-top: 29vh;
-}
-
-footer .footer-link-1 {
-    height: 5vh;
-    margin-top: 18vh;
-    margin-left: 162vh;
-    margin-right: 3vh;
-}
-
-footer .footer-link-2 {
-    height: 6vh;
-    width: 7vh;
-    margin-top: 17vh;
-    margin-right: 3vh;
-}
-
-footer .footer-link-3 {
-    margin-top: 18vh;
-    height: 5vh;
-}
 
 @media only screen and (min-width: 760px) {
     footer .content {
